@@ -29,6 +29,14 @@ router.get('/users', (req, res) => {
   })
 })
 
+router.get('/patrick', (req, res) => {
+  res.json({
+  	users: [{
+  		name: 'patrick'
+  	}]
+  })
+})
+
 router.get('/', (req, res) => {
 	const html = `
 		<html>
