@@ -77,7 +77,7 @@ export default function expressApp(functionName) {
 	  })
 	})
 
-	router.get('/hello/', function(req, res){
+	router.get('/patrick/', function(req, res){
 	  res.send('patrick world')
 	})
 
