@@ -30,7 +30,7 @@ export default function expressApp(functionName) {
 					</style>
 				</head>
 				<body>
-					<h1>Express via '${functionName}' ⊂◉‿◉つ</h1>
+					<h1>Patrick via '${functionName}' ⊂◉‿◉つ</h1>
 
 					<p>I'm using Express running via a <a href='https://www.netlify.com/docs/functions/' target='_blank'>Netlify Function</a>.</p>
 
