@@ -78,7 +78,7 @@ export default function expressApp(functionName) {
 	})
 
 	router.get('/hello/', function(req, res){
-	  res.send('hello world')
+	  res.send('patrick world')
 	})
 
 	// Attach logger
